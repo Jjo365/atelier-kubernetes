@@ -12,6 +12,6 @@ data:
       </head>
       <body>
         <h1>Bienvenue sur le site de Joseph Nathan</h1>
-        <p>Servi par Kubernetes.</p>
+        <p>Page mise à jour depuis la ConfigMap.</p>
       </body>
     </html>
