@@ -68,7 +68,7 @@
 ## Bonus (facultatif)
 
 14. Bonus réalisés et remarques :
-    >J’ai réalisé les bonus B, C et D. J’ai ajouté une readinessProbe HTTP sur / ainsi que des demandes et des limites de CPU et de mémoire. Lors du drain de k3d-lab-agent-0, le pod du site évacué a été recréé sur k3d-lab-agent-1. Le uncordon a rendu le worker de nouveau disponible pour accueillir des pods. Enfin, j’ai déployé une deuxième copie du site dans le namespace prod. Dans Portainer, les deux Deployments site, dans default et prod, affichaient chacun 3/3 réplicas prêts.
+    > J’ai réalisé les quatre bonus. Le site répond via l’Ingress Traefik sur le port 8081. J’ai ajouté une readinessProbe sur / et configuré les ressources CPU et mémoire. Après le drain de k3d-lab-agent-0, le pod évacué a été recréé sur k3d-lab-agent-1 et y est resté après le uncordon. Dans Portainer, les deux copies du site, dans default et prod, affichaient chacune 3/3 réplicas prêts.
 
 ---
 
